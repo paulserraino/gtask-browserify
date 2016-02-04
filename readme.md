@@ -25,8 +25,8 @@ gulp.task('js-watch', function() {
 
 ## API
 
-`.bundle()` runs browserify
-`.watch()` runs watchify
+- `.bundle()` runs browserify
+- `.watch()` runs watchify
 
 ## License
 MIT
