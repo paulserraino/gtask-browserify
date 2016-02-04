@@ -12,6 +12,10 @@
     "gtask",
     "browserify"
   ],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/paulserraino/gtask-browserify.git"
+  },
   "author": "Paul Serraino",
   "license": "MIT",
   "devDependencies": {
