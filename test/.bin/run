@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+run_gulp() {
+    cd test
+    ../node_modules/.bin/gulp
+    cd ..
+}
+
+run_mocha() {
+    ./node_modules/.bin/mocha test/test.js
+}
+
+main() {
+    run_gulp
+    run_mocha
+}
+
+main

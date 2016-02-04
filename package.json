@@ -1,0 +1,31 @@
+{
+  "name": "gtask-browserify",
+  "version": "0.0.0",
+  "description": "gulp browserify task",
+  "main": "task.js",
+  "scripts": {
+    "test": "./test/.bin/run"
+  },
+  "keywords": [
+    "gulp",
+    "task",
+    "gtask",
+    "browserify"
+  ],
+  "author": "Paul Serraino",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "babelify": "^7.2.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
