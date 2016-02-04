@@ -1,6 +1,6 @@
 #gtask-browserify
 
-Gulp browserify task
+Spend less time getting gulp browserify to work and more time writing productive code.
 
 ```js
 var gulp = require('gulp');
